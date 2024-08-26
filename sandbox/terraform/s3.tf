@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "sandbox_bucket" {
   acl    = "private"
 }
 resource "aws_budgets_budget" "total_cost" {
-  name              = "budget-total-monthly"
+  name              = "budget-total-monthly1"
   budget_type       = "COST"
   limit_amount      = "100"
   limit_unit        = "USD"
